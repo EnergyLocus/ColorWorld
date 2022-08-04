@@ -1,11 +1,7 @@
-body{ font-family: verdana, sans-serif;	font-size:18px; }
+body{ font-family: 'Red Hat Display', sans-serif;	font-size:18px; }
+h1,table { text-align:center; }
 
-h1, h2 { text-align:center; }
-h3     { margin-left: 20px; }
-p,ul   { margin-left:40px;  }
-td     { width:45%          }
-code   { margin-left:60px;  }
+table{	width:90%; border-collapse:separate; border-spacing: 15px 15px; table-layout:fixed; }
+td   {	border: none; border-radius:6px; }
 
-table{	width:90%;	height:20%; text-align:center;	border-collapse:separate;	border-spacing: 0 15px; table-layout:fixed; }
-.tb  { border-spacing: 15px 15px; }
-td { border: none; border-radius:4px;}
+@media screen and (max-width: 450px)  {	table { width:100%; }  }

@@ -1,12 +1,13 @@
-body{ font-family: verdana, sans-serif;	font-size:18px; line-height:120%; }
+body{ font-family: 'Red Hat Display', sans-serif; }
 
 h1, h2 { text-align:center; }
-h3     { margin-left: 20px; }
-p,ul   { margin-left:40px;  }
-td     { width:45%          }
-code   { margin-left:60px;  }
+td     { width:45%; border-collapse:separate;      border-spacing: 0 200px;   }
 
-table{	width:90%;	text-align:center;	line-height:300%;	border-collapse:separate;	border-spacing: 0 15px; table-layout:fixed; }
+table{
+	width:90%;	
+	text-align:center;
+	line-height:300%;	
+	table-layout:fixed; }
 .tb  { border-spacing: 15px 15px; }
 
 .col-0-0 {	background:white;  color:black; border:1px solid black;}
@@ -17,3 +18,8 @@ table{	width:90%;	text-align:center;	line-height:300%;	border-collapse:separate;
 .col-2-1 {	background:yellow; color:black;}
 .col-3-0 {	background:magenta;color:white;}
 .col-3-1 {	background:cyan;   color:black;}
+
+@media screen and (max-width: 450px)
+{
+	table { width:100%; }
+}
